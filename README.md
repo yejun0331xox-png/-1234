@@ -27,9 +27,6 @@ local Mouse = setmetatable({}, {
 			return location.X;
 		elseif key == 'Y' then
 			return location.Y;
-		end;
-	end;
-});
 
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 
